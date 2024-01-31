@@ -59,3 +59,20 @@ const chores = ['wash dishes', 'do laundry', 'take out trash', 'cook dinner', 'm
 
 chores.pop(); //removes the last stored variable in the array.
 console.log(chores);
+
+
+
+//More Array Methods
+const groceryList = ['orange juice', 'bananas', 'coffee beans', 'brown rice', 'pasta', 'coconut oil', 'plantains'];
+
+groceryList.shift(); //removes the first variable from the array
+//console.log(groceryList);
+
+groceryList.unshift("popcorn"); //adds another variable to the front of the array.
+
+//slices off the variables between value 1 and 4.
+//console.log(groceryList.slice(1,4));
+//console.log(groceryList); //prints the non mutated array
+
+const pastaIndex = groceryList.indexOf("pasta"); //finds the variable value for the given string.
+console.log(pastaIndex);
