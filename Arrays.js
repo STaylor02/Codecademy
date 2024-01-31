@@ -42,7 +42,20 @@ console.log(utensils);
 
 //The .length property
 const objectives = ['Learn a new language', 'Read 52 books', 'Run a marathon'];
-console.log(objectives.length);
+console.log(objectives.length); //logs the amount of variables stored in the array
 
 
 
+//The .push() Method
+const chores = ['wash dishes', 'do laundry', 'take out trash']; 
+chores.push("clean room", "walk dogs"); //pushes more variables to the back of the array.
+
+console.log(chores);
+
+
+
+//The .pop() Method
+const chores = ['wash dishes', 'do laundry', 'take out trash', 'cook dinner', 'mop floor'];
+
+chores.pop(); //removes the last stored variable in the array.
+console.log(chores);
