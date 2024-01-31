@@ -21,3 +21,28 @@ groceryList[1] = "avocados";
 
 
 
+//Arrays with let and const
+let condiments = ['Ketchup', 'Mustard', 'Soy Sauce', 'Sriracha'];
+
+const utensils = ['Fork', 'Knife', 'Chopsticks', 'Spork'];
+
+//changes the value of the first variable to Mayo
+condiments[0] = "Mayo"; 
+console.log(condiments);
+
+//changes the whole array to just "Mayo"
+condiments = ["Mayo"];
+console.log(condiments);
+
+//changes the value of the fourth variable to "Spoon"
+utensils[3] = "Spoon";
+console.log(utensils);
+
+
+
+//The .length property
+const objectives = ['Learn a new language', 'Read 52 books', 'Run a marathon'];
+console.log(objectives.length);
+
+
+
