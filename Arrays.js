@@ -49,7 +49,7 @@ console.log(objectives.length); //logs the amount of variables stored in the arr
 //The .push() Method
 const chores = ['wash dishes', 'do laundry', 'take out trash']; 
 chores.push("clean room", "walk dogs"); //pushes more variables to the back of the array.
-
+s
 console.log(chores);
 
 
@@ -76,3 +76,28 @@ groceryList.unshift("popcorn"); //adds another variable to the front of the arra
 
 const pastaIndex = groceryList.indexOf("pasta"); //finds the variable value for the given string.
 console.log(pastaIndex);
+
+
+
+//Arrays and Functions
+const concept = ['arrays', 'can', 'be', 'mutated'];
+
+function changeArr(arr){
+  arr[3] = 'MUTATED';
+}
+changeArr(concept);
+console.log(concept);
+
+function removeElement(newArr) {
+  newArr.pop();
+  removeElement(concept);
+  console.log(concept);
+}
+
+
+
+//Nested Arrays
+var numberClusters = [[1, 2], [3, 4], [5, 6]];
+
+const target = numberClusters[2][1];
+console.log(target);
